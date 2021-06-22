@@ -1,0 +1,30 @@
+/* Selector */
+/* Property */
+/* Value */
+
+h1 {
+  color: darkred;
+  margin: 100px;
+  padding: 20px;
+  /* display: inline-block; */
+}
+
+#title {
+  background-color: black;
+}
+
+.yellow-items {
+  background-color: yellow;
+}
+
+.i-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#content {
+  width: 500px;
+}
+
+#left-nav {
+}
