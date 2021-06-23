@@ -2,30 +2,48 @@
   width: 950px;
   background-color: silver;
   margin: 0px auto;
+  /* give this box a perimeter gutter */
   padding: 20px;
 }
 .top-nav {
   height: 150px;
   background-color: green;
+  /* Bottom margin on this box */
+  margin-bottom: 20px;
 }
 .side-nav {
   height: 300px;
   width: 200px;
   background-color: blue;
+  /* must be side-by-side with red box */
+  display: inline-block;
+  vertical-align: top;
 }
 .main {
   height: 400px;
   width: 700px;
   background-color: red;
+  /* must be side-by-side with blue box */
+  display: inline-block;
+  /* put space between red and blue */
+  margin-left: 20px;
+  /* push contents in */
+  padding: 13px;
 }
 .sub-content {
   height: 200px;
   width: 210px;
   background-color: yellow;
+  /* These must be side-by-side */
+  display: inline-block;
+  /* Put space between these boxes */
+  margin-right: 9px;
 }
 #advertisement {
   height: 120px;
   width: 660px;
   background-color: purple;
+  /* Put space between this box and the yellow boxes */
+  margin-top: 20px;
 }
 

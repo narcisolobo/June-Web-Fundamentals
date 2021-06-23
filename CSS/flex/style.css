@@ -1,0 +1,58 @@
+/* CSS governs the style of your website */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: cadetblue;
+  font-family: 'Staatliches', cursive;
+  padding: .5em 0;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all .2s ease-in-out;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5em;
+}
+
+#buy-now {
+  padding: .5em 1em;
+  background-color: orange;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all .1s ease-in-out;
+}
+
+#buy-now:hover {
+  transform: scale(1.1);
+}

@@ -3,7 +3,7 @@
 /* Value */
 
 h1 {
-  color: darkred;
+  color: #ff00ff;
   margin: 100px;
   padding: 20px;
   /* display: inline-block; */
@@ -25,3 +25,21 @@ h1 {
 #content {
   width: 500px;
 }
+
+/*
+  Colors
+  property     css property
+
+  text color   color: red
+  background   background-color: 
+
+  width        width: 20px
+  height       height: 20px
+
+  display      display: inline-block => makes block elements able to be side-by-side
+  vertical     vertical-align: top
+
+  outside box  margin: 20px
+  inside box   padding: 20px
+
+/*/
