@@ -1,0 +1,33 @@
+/* h1 {
+  color: red;
+  position: relative; */
+  /* relative to its normal position in the flow of the document */
+  /* left: 20px;
+  top: 150px;
+} */
+
+/* h2 {
+  color: blue;
+  position: absolute; */
+  /* relative to its parent element out of the flow of the document */
+  /* left: 400px;
+} */
+
+/* body {
+  width: 200px;
+} */
+
+#parent {
+  border: 3px solid red;
+  width: 450px;
+  height: 500px;
+  position: relative;
+}
+
+#parent img {
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  border-radius: 50%;
+}
