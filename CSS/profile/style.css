@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: lightgreen;
+  min-height: 80px;
+}
+
+.container {
+  background-color: yellow;
+  width: 70%;
+  min-height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+}
+
+#menu {
+  background-color: red;
+  min-height: 80px;
+}
+
+#content {
+  min-height: 500px;
+  background-color: red;
+  flex: 2;
+}
+
+#aside {
+  min-height: 500px;
+  background-color: red;
+  flex: 1;
+}
