@@ -1,0 +1,18 @@
+What is a stack?
+
+A full stack consists of the front end, the back end, and the database.
+
+Front end - client side (HTML, CSS, JavaScript)
+Back end - server side (Python, Ruby, C#, Java, JavaScript)
+Database - database (MySQL, Postgres, MariaDb, MongoDb)
+
+Request Response Cycle
+
+Syntax Language
+Object Oriented Programming
+4 Pillars of OOP
+Framework of the Stack
+
+CRUD
+Create, Read, Update, Destroy
+

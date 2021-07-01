@@ -1,0 +1,6 @@
+API - Application Programming Interface
+
+Web APIs consist of endpoints that expose resources.
+Endpoints are URLS
+
+JSON - JavaScript Object Notation
