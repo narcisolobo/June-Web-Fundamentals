@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GamingDojo</title>
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav>
+        <div class="container flexed">
+            <h1 id="logo">Gaming<span class="purple-font">Dojo</span></h1>
+            <div id="nav-right" class="flexed">
+                <select name="currency" id="currency">
+                    <option value="euro">Euro €</option>
+                </select>
+                <img src="./images/cart-light.png" alt="shopping cart">
+                <p id="item-count"></p>
+                <!-- wouldn't the 0 need to be a hyperlink? -->
+                <img src="./images/search-light.png" alt="search">
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- main start -->
+    <main>
+        <div class="container">
+            <!-- highlights -->
+            <div id="highlights">
+                <h2>Highlights</h2>
+                <div id="carousel" class="flexed">
+                    <img id="left" onclick="swap()" src="./images/chevron-left.png" alt="left">
+                    <img id="hero" src="./images/stonepunk.png" alt="stone punk" data-alt-src="./images/cafe-neko.png">
+                    <img onclick="swap()" id="right" src="./images/chevron-left.png" alt="right">
+                </div>
+            </div>
+            <div class="jc-center">
+                <div class="dash"></div>
+                <div class="dash purple-bg"></div>
+                <div class="dash"></div>
+                <div class="dash"></div>
+            </div>
+            <div id="features" class="flexed">
+                <div class="feature">
+                    <img class="feature-pic" src="./images/cafe-neko.png" alt="cafe neko">
+                    <div class="feature-details">
+                        <h2>Cafe Neko: Gold Edition</h2>
+                        <img class="os-icons" src="./images/windows.png" alt="windows">
+                        <img class="os-icons" src="./images/apple.png" alt="apple">
+                        <div class="buttons flexed">
+                            <button class="btn purple-bg">-20%</button>
+                            <div class="prices">
+                                <p class="disabled">€14.98</p>
+                                <p class="sale-price">€10.49</p>
+                            </div>
+                            <button onclick="incrementCount()" class="btn green-bg">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img class="feature-pic" src="./images/pixel-ninjas-2.png" alt="pixel ninjas">
+                    <div class="feature-details">
+                        <h2>Pixel Ninjas 2</h2>
+                        <img class="os-icons" src="./images/windows.png" alt="windows">
+                        <img class="os-icons" src="./images/apple.png" alt="apple">
+                        <div class="buttons flexed">
+                            <button class="btn purple-bg">-10%</button>
+                            <div class="prices">
+                                <p class="disabled">€8.19</p>
+                                <p class="sale-price">€7.39</p>
+                            </div>
+                            <button onclick="incrementCount()" class="btn green-bg">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img class="feature-pic" src="./images/stonepunk.png" alt="stone punk">
+                    <div class="feature-details">
+                        <h2>Stone Punk 10000 BCE</h2>
+                        <img class="os-icons" src="./images/windows.png" alt="windows">
+                        <img class="os-icons" src="./images/apple.png" alt="apple">
+                        <img onclick="alert('This game is supported on Linux')" class="os-icons"
+                            src="./images/linux.png" alt="linux">
+                        <div class="buttons flexed">
+                            <button class="btn purple-bg">NEW</button>
+                            <div class="prices">
+                                <br>
+                                <p class="sale-price">€19.99</p>
+                            </div>
+                            <button onclick="incrementCount()" class="btn green-bg">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- main end -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="top">
+            <label for="unit-choice">CHOOSE UNIT</label>
+            <select id="unit-choice" onchange="changeUnit(this)">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+            </select>
+        </div>
+        <div id="days" class="flexed">
+            <div class="day">
+                <div class="bottom-row flexed">
+                    <p class="temps high-temp">24</p>
+                    <p class="temps low-temp">18</p>
+                </div>
+            </div>
+            <div class="day">
+                <div class="bottom-row flexed">
+                    <p class="temps high-temp">27</p>
+                    <p class="temps low-temp">19</p>
+                </div>
+            </div>
+            <div class="day">
+                <div class="bottom-row flexed">
+                    <p class="temps high-temp">21</p>
+                    <p class="temps low-temp">16</p>
+                </div>
+            </div>
+            <div class="day">
+                <div class="bottom-row flexed">
+                    <p class="temps high-temp">26</p>
+                    <p class="temps low-temp">21</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

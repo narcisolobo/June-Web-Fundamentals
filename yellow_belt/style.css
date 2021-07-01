@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* outline: 1px dashed red; */
+}
+
+body {
+  background-color: lightgray;
+}
+
+/* nav styles start */
+nav {
+  min-height: 50px;
+  background-color: black;
+  border-top: #9828ff 5px solid;
+  margin-bottom: 1.5em;
+  padding: .5em;
+}
+
+#logo {
+  font-size: 2em;
+  color: white;
+}
+
+nav img {
+  width: 48px;
+}
+
+#nav-right {
+  min-height: 50px;
+  gap: 1.5em;
+}
+
+#item-count {
+  color: white;
+  font-size: 1.5em;
+}
+
+#nav-right select {
+  padding: .5rem;
+  font-size: 1.1em;
+}
+
+/* nav styles end */
+
+/* highlights styles start */
+
+#highlights {
+  min-height: 300px;
+  margin-bottom: 1.5em;
+}
+
+#right {
+  transform: scaleX(-1)
+}
+
+/* highlights styles end */
+
+/* dash styles start */
+
+.dash {
+  height: 5px;
+  width: 60px;
+  background-color: darkgray;
+}
+
+.jc-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1.5em;
+}
+
+/* dash styles end */
+
+/* features styles start */
+
+#features {
+  min-height: 300px;
+  gap: 1.5em;
+}
+
+.feature {
+  min-height: 300px;
+  flex: 1;
+  background-color: white;
+}
+
+.feature-details {
+  padding: 1.5em;
+}
+
+.feature-pic {
+  width: 100%;
+}
+
+.os-icons {
+  width: 30px;
+}
+
+.prices {
+  text-align: right;
+}
+
+.buttons {
+  margin-top: 1.5em;
+}
+
+/* features styles end */
+
+/* utility classes start */
+
+.purple-font {
+  color: #9828ff;
+}
+
+.purple-bg {
+  background-color: #9828ff;
+}
+
+.green-bg {
+  background-color: #6aa84f;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  padding: .5em 1em;
+  border: 0;
+  font-size: 1.2em;
+}
+
+.disabled {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.sale-price {
+  font-size: 1.1em;
+}
+
+/* utility classes end */
